@@ -3,8 +3,8 @@ import pandas as pd
 import os
 import json
 
-
-file_path = "/Users/GauravSaini/Documents/Gaurav/Extra/GenAI/finetuning/falcon/train.csv"
+# download train.csv file from this kaggle dataset - https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-dataset
+file_path = "<<input train.csv file path from Kaggle>>"
 def read_and_process_data(file_path):
     df = pd.read_csv(file_path)
     questions = []
